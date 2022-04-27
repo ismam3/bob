@@ -1,0 +1,133 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Plane.001",
+            "rotation" : [
+                0.24093887209892273,
+                0,
+                0,
+                0.9705402851104736
+            ],
+            "scale" : [
+                2.3940467834472656,
+                1,
+                1.358626127243042
+            ],
+            "translation" : [
+                -0.016530148684978485,
+                0.6284451484680176,
+                -3.572629690170288
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.07742983847856522,
+                    0.39311397075653076,
+                    0.08262871950864792,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 18,
+            "max" : [
+                1.0069046020507812,
+                2.2350246906280518,
+                4.098138809204102
+            ],
+            "min" : [
+                -0.9999999403953552,
+                -0.004279136657714844,
+                -0.9999996423721313
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 18,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 18,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 30,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 216,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 216,
+            "byteOffset" : 216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 60,
+            "byteOffset" : 576
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 636,
+            "uri" : "data:application/octet-stream;base64,//9/vwAAgLMBAIA///9/vwAAgLMBAIA///9/PwAAgLMBAIA///9/vwAAQLT6/3+///9/PwAAQLT6/3+/fjt+v6UKD0D0I4NAQOKAP6UKD0D0I4NAfjt+vwA4jLsYrHs/QOKAPwA4jLsYrHs/QOKAPwA4jLsYrHs///9/P+hmgbMzMn0///9/P+hmgbMzMn0///9/P+hmgbMzMn0///9/P+hmgbMzMn0/fjt+v+hmgbMzMn0/fjt+v+hmgbMzMn0/fjt+v+hmgbMzMn0/fjt+v+hmgbMzMn0/Pe8qpwAAgD8BAICzAAAAAAAAgD8kAICzAAAAAAAAgD8kAICzPe8qpwAAgD8BAICzPe8qpwAAgD8BAICzomybMkbdTz9KbRW/omybMkbdTz9KbRW/AAAAADPdTz9kbRW/AAAAADPdTz9kbRW/omybMkbdTz9KbRW/Pe8qpwAAgD8BAICzAAAAADPdTz9kbRW/AAAAAAAAgD8kAICzomybMkbdTz9KbRW/Pe8qpwAAgD8BAICzAAAAADPdTz9kbRW/AAAAAAAAgD8kAICzomybMkbdTz9KbRW/AAAAAAAAgD8AAAAAAACAPwAAgD8AAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAAAAAAIA/GJl+P78dfz8AePo6AACAPxiZfj+/HX8/AHj6OoJAYjsYmX4/AAAAAAB4+jqCQGI7GJl+PwAAAAAAePo6EAABAAIAEAACAAwADgAKAAQAAwAAAA4ABAADAA4ADQARAAUABQAGAAkABQAJAA0ACwAIAAcACwAHAA8A"
+        }
+    ]
+}

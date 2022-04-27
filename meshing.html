@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+        <script src="https://recast-api.donmccurdy.com/aframe-inspector-plugin-recast.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+        <!-- <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+        <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script>   -->
+ 
+        <!-- <script src="aframe-extras.min.js"></script> -->
+        <!-- <script src="aframe-physics-system.min.js"></script> -->
+
+        <title>mesh</title>
+    </head>
+    <body style="user-select: none; -webkit-app-region:drag;">
+
+        <a-scene physics="debug: false" vr-mode-ui="enabled:false" inspector-plugin-recast>
+            <!-- <div id="preloader"></div> -->
+            <!-- assets -->
+            <a-assets>
+                <img id="concrete_texture" src="textures/concrete_texture.jpg">
+                <img id="white_marbel" src="textures/white_marbel_tiles.jpg">
+                <img id="sky_texture" src="textures/clear_sky.jpeg">
+                <img id="grass_texture" src="grass(1).jpg">
+                <img id="brick" src="brick_texture.jpg">
+                <a-asset-item id="mesh" src="meshing.glb"></a-asset-item>
+            </a-assets>
+
+            <a-entity movement-controls="constrainToNavMesh:True">
+                <a-entity position="0 1.6 0" camera look-controls=""></a-entity>
+            </a-entity>
+            <!-- <a-plane src="#grass_texture" height="100" width="100" rotation="-90 0 0"></a-plane> -->
+
+            <a-box src="#brick" position="0 2 -7" depth="2" height="4" width="0.5"></a-box>
+            <a-box src="#brick" rotation="119.99999999999999 0 0" position="0.054 0.66352 -4.74808" depth="2" height="4" width="0.5" material="" geometry="depth: 0.5; height: 3"></a-box>
+
+            <a-gltf-model src="untitled2.gltf" nav-mesh="" gltf-model="untitled2.gltf"></a-gltf-model>
+    </body>
+</html>
